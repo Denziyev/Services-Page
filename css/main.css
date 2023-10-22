@@ -1,0 +1,256 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#HomeRepair {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+#HomeRepair .backgroundcircles {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 274px;
+  position: absolute;
+  z-index: -1000;
+}
+#HomeRepair .backgroundcircles img:nth-child(1) {
+  position: absolute;
+  top: 113px;
+  left: 0;
+}
+#HomeRepair .backgroundcircles img:nth-child(2) {
+  position: absolute;
+  top: 113px;
+  right: 0;
+}
+#HomeRepair .backgroundcircles img:nth-child(3) {
+  position: absolute;
+  top: 168px;
+  right: 69px;
+  width: 46px;
+}
+#HomeRepair .Container {
+  width: 78%;
+  margin-top: 180px;
+}
+#HomeRepair .Container p {
+  color: #222;
+  width: 90%;
+  font-family: Averta;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+#HomeRepair .Container #servicescontainer {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 16px;
+}
+#HomeRepair .Container #servicescontainer .rectangle {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 16px 16px 16px;
+}
+#HomeRepair .Container #servicescontainer .rectangle > div {
+  background-image: none;
+  width: 100%;
+  border-radius: 6px;
+  background: #FFF;
+  box-shadow: 0px 0px 24px 0px rgba(34, 34, 34, 0.06);
+  padding: 24px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+#HomeRepair .Container #servicescontainer .rectangle > div > p:nth-child(1) {
+  color: #222;
+  font-family: Averta;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+#HomeRepair .Container #servicescontainer .rectangle > div > p:nth-child(2) {
+  color: #222;
+  width: 90%;
+  font-family: Averta;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  opacity: 0.5;
+}
+#HomeRepair .Container #servicescontainer .rectangle > div .booknow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #5920BC;
+  text-align: right;
+  font-family: Averta;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-decoration: none;
+}
+#HomeRepair .Container #servicescontainer .rectangle > div .booknow:hover {
+  color: #222;
+}
+#HomeRepair .Container #servicescontainer .rectangle > div .booknow img {
+  width: 16px;
+  height: 16px;
+}
+#HomeRepair .Container #servicescontainer .rectangle:nth-child(1) {
+  background-image: url("../../Assets/images/Rectangle1.png");
+}
+#HomeRepair .Container #servicescontainer .rectangle:nth-child(2) {
+  background-image: url("../../Assets/images/Rectangle2.png");
+}
+#HomeRepair .Container #servicescontainer .rectangle:nth-child(3) {
+  background-image: url("../../Assets/images/Rectangle3.png");
+}
+#HomeRepair .Container #servicescontainer .rectangle:nth-child(4) {
+  background-image: url("../../Assets/images/Rectangle4.png");
+}
+#HomeRepair .Container #servicescontainer .rectangle:nth-child(5) {
+  background-image: url("../../Assets/images/Rectangle5.png");
+}
+#HomeRepair .Container #servicescontainer .rectangle:nth-child(6) {
+  background-image: url("../../Assets/images/Rectangle1.png");
+}
+#HomeRepair .Container #servicescontainer .rectangle:nth-child(7) {
+  background-image: url("../../Assets/images/Rectangle3.png");
+}
+#HomeRepair .Container #servicescontainer .rectangle:nth-child(8) {
+  background-image: url("../../Assets/images/Rectangle2.png");
+}
+#HomeRepair .Container #servicescontainer .rectangle:nth-child(9) {
+  background-image: url("../../Assets/images/Rectangle9.png");
+}
+
+@media screen and (max-width: 1100px) {
+  .backgroundcircles {
+    height: 214px !important;
+  }
+  .backgroundcircles img:nth-child(1) {
+    top: 70px !important;
+    width: 161px;
+  }
+  .backgroundcircles img:nth-child(2) {
+    top: 70px !important;
+    width: 161px;
+  }
+  .backgroundcircles img:nth-child(3) {
+    top: 121px !important;
+    right: 50px !important;
+    width: 33px !important;
+  }
+  .Container {
+    width: 65% !important;
+    margin-top: 141px !important;
+  }
+  .Container #servicescontainer {
+    margin-top: 109px !important;
+    grid-template-columns: auto auto !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .backgroundcircles {
+    height: 147px !important;
+  }
+  .backgroundcircles img:nth-child(1) {
+    top: 70px !important;
+    width: 86px;
+  }
+  .backgroundcircles img:nth-child(2) {
+    top: 70px !important;
+    width: 86px;
+  }
+  .backgroundcircles img:nth-child(3) {
+    top: 90px !important;
+    right: 30px !important;
+    width: 25px !important;
+  }
+  .Container {
+    width: 60% !important;
+    margin-top: 101px !important;
+  }
+  .Container #servicescontainer {
+    margin-top: 45px !important;
+    grid-template-columns: auto !important;
+  }
+}
+.createdby {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 150px;
+}
+.createdby a {
+  color: blue;
+  font-weight: 800;
+  font-size: 22px;
+}
+.createdby a:hover {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  color: black;
+  cursor: pointer;
+}
